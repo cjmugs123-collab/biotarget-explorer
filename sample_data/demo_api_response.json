@@ -1,0 +1,18 @@
+{
+  "NOTICE": "SYNTHETIC FABRICATED DEMO - NOT REAL RESEARCH DATA",
+  "data": {
+    "disease": {
+      "id": "DEMO_FAKE_DISEASE",
+      "name": "SYNTHETIC PANCREATIC CANCER DEMO - NOT REAL DATA",
+      "associatedTargets": {
+        "count": 4,
+        "rows": [
+          {"score": 0.91, "target": {"id": "DEMO_GENE_001", "approvedSymbol": "DEMO_A", "approvedName": "Fabricated testing gene A"}, "datatypeScores": [{"id": "genetic_association", "score": 0.8}, {"id": "somatic_mutation", "score": 0.7}]},
+          {"score": 0.74, "target": {"id": "DEMO_GENE_002", "approvedSymbol": "DEMO_B", "approvedName": "Fabricated testing gene B"}, "datatypeScores": [{"id": "known_drug", "score": 0.4}]},
+          {"score": 0.61, "target": {"id": "DEMO_GENE_003", "approvedSymbol": "DEMO_C", "approvedName": "Fabricated testing gene C"}, "datatypeScores": [{"id": "genetic_association", "score": 0.2}, {"id": "rna_expression", "score": 0.6}, {"id": "literature", "score": 0.5}]},
+          {"score": 0.24, "target": {"id": "DEMO_GENE_004", "approvedSymbol": "DEMO_D", "approvedName": "Fabricated testing gene D"}, "datatypeScores": []}
+        ]
+      }
+    }
+  }
+}
